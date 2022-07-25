@@ -2,7 +2,7 @@
 Golang tea 加密算法
 
 
-	data := []byte("{\"code\":2000, \"msg\":\"ok\", \"dat\":[]}")
+	data := []byte("{\"code\":2000, \"msg\":\"ok\", \"data\":[]}")
 	encryptData := Encrypt(data)
 	fmt.Println("encryptData：", encryptData)
 

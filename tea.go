@@ -2,8 +2,6 @@ package main
 
 var K = []uint32{1280791999, 1112888951, 1970042213, 1112892528}
 
-//var K = []uint32{1280791896, 1112888951, 1970042213, 1112892528}
-
 func Encrypt(clear []byte) []byte {
 	LenIn := len(clear)
 	Len := LenIn

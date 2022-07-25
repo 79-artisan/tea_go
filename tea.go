@@ -81,6 +81,8 @@ func UnPack(src []uint32, length int) []byte {
 		if l >= 0 {
 			if int(dest[l]) == 0 {
 				c++
+			} else {
+				break
 			}
 			l--
 		} else {
